@@ -77,12 +77,12 @@ public class script {
         frame.add(center, BorderLayout.CENTER);
         //frame.setLayout(new BorderLayout());
 
-
+        frame.setLocationRelativeTo(null);
         // window size
-        frame.setSize(200, 150); 
+        frame.setSize(250, 200); 
 
         //removes the option to minimize or close
-        frame.setUndecorated(true);
+        //frame.setUndecorated(true);
         
         // Close the application when the window is closed
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
